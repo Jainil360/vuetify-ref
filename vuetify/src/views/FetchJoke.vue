@@ -22,7 +22,6 @@ Fetch Joke
      <v-col  cols="12"  justify="center" align="start" class="ml-2">
        <v-btn class="primary" rounded v-on:click="GoBack()" >
         <v-icon left>mdi-arrow-left</v-icon>
-        
 Go Back
       </v-btn>
    
