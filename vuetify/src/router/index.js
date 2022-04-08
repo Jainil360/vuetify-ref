@@ -1,14 +1,21 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import LoginPage from '../views/LoginPage'
+import MainPage from '../views/MainPage'
+import FetchJoke from '../views/FetchJoke'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'LoginPage',
-    component: LoginPage
+    name: 'MainPage',
+    component: MainPage
+
+  },
+  {
+    path: '/fetchJoke',
+    name: 'FetchJoke',
+    component: FetchJoke
 
   },
   
